@@ -162,6 +162,13 @@
     width: 100%;
     margin-right: 34px;
 }
+#testQuestionContent .testImage.layoutCImage {
+    width: 100%;
+    max-width: 100%;
+    text-align: center;
+}
+
+
 
 #testQuestionContent .testOptions ul li {
     display: block;
@@ -189,6 +196,21 @@
 
 #testQuestionContent .testOptions.layoutB {
     max-width: 100%;
+}
+
+#testQuestionContent .testOptions.layoutC {
+    max-width: 100%;
+}
+
+#testQuestionContent .testOptions.layoutC ul li {
+    display: inline-block;
+    width: 30%;
+    max-width: 232px;
+    height: 150px;
+    margin:15px;
+    vertical-align: top
+
+;
 }
 
 #testQuestionContent .buttonNext {
