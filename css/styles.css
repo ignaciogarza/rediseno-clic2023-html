@@ -56,6 +56,8 @@ html {
   footer {
     width: 100%;
     background-color: #fafafa;
+    padding: 0.3em;
+
   }
 
   footer .container {
@@ -86,6 +88,7 @@ html {
     display: inline-block;
     width: 250px;
     margin: 0 auto;
+
   }
 
   footer #mainLogo img {
@@ -94,7 +97,7 @@ html {
 
   #content {
     margin-top:10px;
-    height: calc(100vh - 150px);
+    min-height: calc(100vh - 150px);
     display: flex;
     flex-direction: row;
   }
@@ -146,5 +149,57 @@ html {
   }
 
    #mainContent {
-flex:1;
+    flex:1;
+    margin: 36px 0 0 54px;
+    height: auto;
+  }
+
+  #mainContent h1 {
+    color: #004E70;
+    margin-bottom: 1.5em ;
+  }
+
+  #mainContent h3 {
+    color: #004E70;
+    margin-bottom: 1.5em ;
+    padding-bottom: 1.5em;
+    border-bottom: 1px solid #ccc;
+  }
+
+  #toolsSection .toolsOptions {
+    width: 397px;
+    margin: 1em;
+    padding-top: 1em;
+    background-color: #fafafa;
+    display: inline-block;
+  } 
+
+  #toolsSection .toolsOptions .iconSection {
+   margin-left: 2em;
+   display: inline-block;
+   width: 50px;
+  }
+
+  #toolsSection .toolsOptions .textSection {
+    display: inline-block;
+    width: 280px;
+    vertical-align: top;
+    margin-left: 1em;
+    color: #004E70;
+  }
+
+  #toolsSection .toolsOptions .textSection h2 {
+    margin-bottom: 0.5em;
+  }
+
+  #toolsSection .toolsOptions .textSection button {
+    margin:1em 0;
+    border:#8DBA38 1px solid; padding: 0.5em;
+    border-radius: 6px;
+    background-color: white;
+    float: right;
+  }
+
+  #toolsSection .toolsOptions .textSection button img {
+    vertical-align: middle;
   }

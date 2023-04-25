@@ -1,0 +1,203 @@
+.testCover {
+    border: 1px solid #A6A6A8;
+    width:286px;
+    min-height: 274px;
+    border-radius: 8px;
+    padding: 24px 12px;
+    display: inline-block;
+    margin: 1em;
+
+
+}
+.testCover h2,  h3 {
+    font-weight: 600;
+    color: #18214D;
+}
+
+#testOptions a {
+    text-decoration: none;
+    color: black;
+}
+.testCover .testInsignia {
+    width: 100%;
+    background-color: #ebf3fa;
+    margin-bottom: 16px;
+}
+
+.testCover .testInsignia.testAvanzado {
+    background-color: #fefbea;
+}
+
+.testCover .testInsignia img {
+    width: 100%;
+}
+
+.testCover .testStage {
+    margin-top: 8px;
+    margin-bottom: 16px;
+}
+
+.testCover .testStage img {
+    vertical-align: middle;
+}
+
+#testDescription h3 {
+    color: #8DBA38;
+    border-bottom: none;
+}
+
+#testDescription .descriptionInfo {
+    width: 39%;
+    max-width: 300px;
+    display: inline-block;
+    vertical-align: top;
+}
+#testDescription .descriptionText {
+    width: 60%;
+    max-width: 400px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+#testDescription .descriptionText p {
+    margin: 0.8em;
+    line-height: 1.5;
+}
+
+#testDescription .descriptionInfo span {
+    display: inline-block;
+    width: 50px;
+}
+
+#testDescription .descriptionInfo img {
+    width: 100%;
+}
+
+#testDescription .descriptionInfo p {
+    display: inline-block;
+    width: 60%;
+    line-height: 2;
+}
+#testDescription .descriptionInfo p strong {
+    color:#004E70;
+}
+
+
+#testDescription .descriptionText .button {
+    background-color: #8DBA38;
+    color: white;
+    border-radius: 8px;
+    padding: 10px 14px;
+    border: 0;
+    float: right;
+    margin-top: 1em;
+    font-size: 16px;
+}
+
+#testDescription .descriptionText a {
+    text-decoration: none;
+}
+
+#testDescription .descriptionText .button img {
+    vertical-align: middle;
+    margin-left: 0.5em;
+}
+
+#testProgress, #testQuestionContent {
+    width: 100%;
+    max-width: 900px;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+#testProgress .testQuestionInfo{
+    display: block;
+    height: 30px;
+}
+
+
+#testProgress .testQuestionNumber {
+    float: left;
+    color:#004E70;
+    
+}
+
+#testProgress .testTimeControl {
+    float: right;
+    color:#004E70
+}
+
+#testProgress .testTimeControl img {
+    vertical-align: middle;
+    margin-right: 0.5em;
+}
+
+#testProgress .testProgressBar{
+    width: 100%;
+    height: 10px;
+    background-color: #E6E6E6;
+    border-radius: 8px;
+    margin-top: 1em;
+}
+
+#testProgress .testProgressBar .testProgressBarFill{
+    width: 3.5%;
+    background-color: #8DBA38;
+    height: 10px;
+    border-radius: 8px;
+}
+
+#testQuestionContent h3 {
+    border-bottom: 0;
+}
+
+#testQuestionContent .testImage, #testQuestionContent .testOptions {
+    width: 100%;
+    max-width: 430px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+#testQuestionContent .testImage {
+    width: 100%;
+    margin-right: 34px;
+}
+
+#testQuestionContent .testOptions ul li {
+    display: block;
+    border:1px solid #A6A6A8;
+    padding: 12px;
+    margin-bottom: 12px;
+    border-radius: 8px;
+    color: #A6A6A8;
+}
+
+#testQuestionContent .testOptions ul li:hover {
+    border:1px solid #8DBA38;
+   
+}
+#testQuestionContent .testOptions ul li div {
+    display:inline-block;
+    width: 20px;
+    vertical-align: top;
+}
+
+#testQuestionContent .testOptions ul li p {
+    display: inline-block;
+    width: 370px;
+}
+
+#testQuestionContent .testOptions.layoutB {
+    max-width: 100%;
+}
+
+#testQuestionContent .buttonNext {
+    background-color: #8DBA38;
+    color: white;
+    padding: 10px 14px;
+    border-radius: 6px;;
+    text-decoration: none;
+    margin-top: 1em;
+    float: right;
+}
+
